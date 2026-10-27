@@ -6,14 +6,14 @@
 
 body {
     background-color: #f4f6f9;
-    padding-top: 70px;
+    padding-top: 30px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 55vh;
     width: 100vw;
 }
@@ -30,7 +30,7 @@ span {
 .container>section:nth-child(3) {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 90vw;
 }
 
